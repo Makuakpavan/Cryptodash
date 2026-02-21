@@ -1,4 +1,4 @@
-export const API = "https://api.coingecko.com/api/v3";
+export const API = import.meta.env.VITE_COIN_API;
 
 export const CURRENCIES = ["usd", "eur", "gbp", "jpy"];
 
